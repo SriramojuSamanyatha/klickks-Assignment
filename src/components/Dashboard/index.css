@@ -1,0 +1,38 @@
+.welcome-backround{
+    background-image: radial-gradient(#fff8db, #fae38c);
+    height: 100vh;
+    padding: 30px;
+
+}
+.welcome{
+    height: 160px;
+    width: 140px;
+}
+.welcome-name{
+    color: black;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+}
+.head-name{
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+.welcome-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.sub-head-text{
+    color: #375a74;
+    font-family: "Roboto";
+    font-size: 23px;
+}
+.button-con{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
