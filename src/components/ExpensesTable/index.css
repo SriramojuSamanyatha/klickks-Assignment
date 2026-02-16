@@ -1,0 +1,16 @@
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.delete-button{
+    background-color: #e74c3c;
+    color: white;
+    border:none;
+    padding: 4px 7px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}

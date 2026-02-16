@@ -16,7 +16,7 @@ const Register = () => {
     const onSubmitSignForm =async (event) => {
         event.preventDefault()
         const userDetails = {name,email, password}
-        const url = 'https://auth-assignment-backend-1.onrender.com/register'
+        const url = 'https://expenses-backend-z32u.onrender.com/register'
         const options = {
             method: 'POST',
             headers:{

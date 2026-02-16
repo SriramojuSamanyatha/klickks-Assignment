@@ -12,7 +12,7 @@ const Login = () => {
 
     const navigate = useNavigate()
 
-    const onSubmitSuccess = jwtToken => {
+    const onSubmitSuccess = (jwtToken) => {
     Cookies.set('jwt_token', jwtToken, {
       expires: 30,
     })
@@ -29,7 +29,7 @@ const Login = () => {
     const onLogin = async (event) => {
         event.preventDefault()
         const userDetails = {name, password}
-        const url = 'https://auth-assignment-backend-1.onrender.com/login'
+        const url = 'https://expenses-backend-z32u.onrender.com/login'
         const options = {
             method: 'POST',
             headers:{

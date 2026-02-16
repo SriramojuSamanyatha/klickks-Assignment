@@ -1,12 +1,12 @@
 .welcome-backround{
     background-image: radial-gradient(#fff8db, #fae38c);
     height: 100vh;
-    padding: 30px;
+    padding: 10px;
 
 }
 .welcome{
-    height: 160px;
-    width: 140px;
+    height: 30px;
+    width: 30px;
 }
 .welcome-name{
     color: black;
@@ -21,7 +21,7 @@
 }
 .welcome-con{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 5px;
@@ -33,6 +33,55 @@
 }
 .button-con{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-dashboard{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+.label-con{
+    display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+.two-sub-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-form-sec{
+    display: flex;
+    flex-direction: column;
+  
+}
+.stylebtn{
+    margin-top: 10px;
+}
+.date-con{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.input-txt{
+    padding: 4px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    width: 140px;
+    
+}
+.trans-head{
+    font-size: 22px;
+}
+.loading-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
